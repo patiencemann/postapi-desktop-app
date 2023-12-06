@@ -1,4 +1,4 @@
-# postapi-desktop-last-trie
+# postapi-desktop
 
 ## Project setup
 ```
