@@ -2,9 +2,8 @@
   "name": "postapi",
   "version": "0.1.0",
   "private": true,
-  "author": "Manirabona Patience <hseal419@gmail.com>",
   "description": "An electron-vue project",
-  "license": "MIT",
+  "author": "Manirabona Patience <hseal419@gmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -16,20 +15,43 @@
   },
   "main": "background.js",
   "dependencies": {
+    "@kangc/v-md-editor": "^2.3.18",
+    "appwrite": "^11.0.0",
+    "autoprefixer": "^10",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "docx": "^8.0.4",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.9.3",
+    "moment": "^2.29.4",
+    "pinia": "^2.1.7",
+    "postcss": "^8",
+    "simple-syntax-highlighter": "^1.6.2",
+    "tailwindcss": "^3",
+    "vue": "^3.2.13",
+    "vue-goodshare": "^1.6.1",
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@rushstack/eslint-patch": "^1.1.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.4.0",
     "electron": "^13.0.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^7.32.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-cli-plugin-electron-builder": "~2.1.1"
+    "postcss": "^8.4.32",
+    "postcss-loader": "^7.3.3",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^2.2.19",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
+    "vue-cli-plugin-tailwind": "~3.0.0"
   },
   "eslintConfig": {
     "root": true,
@@ -50,5 +72,6 @@
     "last 2 versions",
     "not dead",
     "not ie 11"
-  ]
+  ],
+  "license": "MIT"
 }
